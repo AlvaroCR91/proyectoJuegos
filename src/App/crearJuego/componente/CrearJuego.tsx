@@ -44,6 +44,15 @@ return(
                     alert("El ID ya existe, por favor ingrese un ID diferente.");
                     return;
                 }
+
+                if (juego.name.trim() === "") {
+                    alert("El nombre del juego no puede estar vacío.");
+                    return;
+                }
+                if (juego.id <= 0) {
+                    alert("El ID debe ser un número positivo.");
+                    return;
+                }
                 const nuevosJuegos = [...juegos, juego];
                 setJuego({ id: juego.id + 1, name: "" });
                 localStorage.setItem("juegos", JSON.stringify(nuevosJuegos));
