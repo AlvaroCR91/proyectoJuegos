@@ -46,7 +46,7 @@ console.log("Juegos disponibles:", localStorage.getItem("juegos"));
   return (
     <div>
       <div className="titulo">
-        <h2>Crear Partida</h2>
+        <h2>Guardar datos de tus partidas</h2>
       </div>
       <div className="bloque">
         <form

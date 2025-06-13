@@ -11,10 +11,10 @@ import { CrearJuego } from './crearJuego/componente/CrearJuego';
 const App: React.FC = () => {
 
   const indices = [
-    { id:0, name: 'Añadir Juego', descripcion: 'Añadir un nuevo juego.', href: '/crearJuego' },
-    { id: 1, name: 'Crear Partida', descripcion: 'Crear una nueva partida.', href: '/crearPartida' },
-    { id: 2, name: 'Listar partidas y Juegos', descripcion: 'Listar partidas y juegos guardados.', href: '/listarPartida' },
-    { id: 3, name: 'Editar partida', descripcion: 'Editar partidas.', href: '/editarPartida' },
+    { id:0, name: 'Añadir Juego', descripcion: 'Añadir un nuevo juego a tu lista de juegos.', href: '/crearJuego' },
+    { id: 1, name: 'Guardar datos de tus partidas', descripcion: 'Añade las partidas de los juegos que has jugado.', href: '/crearPartida' },
+    { id: 2, name: 'Lista de partidas y Juegos', descripcion: 'Listar tus partidas y juegos guardados.', href: '/listarPartida' },
+    { id: 3, name: 'Editar partidas', descripcion: 'Editar partidas.', href: '/editarPartida' },
     { id: 4, name: 'Eliminar partida o juego', descripcion: 'Eliminar partida o juego guardado.', href: '/eliminarPartida' },
   ];
 
