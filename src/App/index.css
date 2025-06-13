@@ -102,13 +102,13 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #1a1a1a;
-    background-color: #ffffff;
+    background-color: #5b56d9;
     --color-fondo: #f0f0f5;
     --color-borde: #ccc;
   }
 
   .bloque {
-    background-color: white;
+    background-color: rgb(105, 76, 193);
     color: #1a1a1a;
   }
 
