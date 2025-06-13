@@ -6,20 +6,6 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   background-image: url("../img/fondo.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: #1a1a2f;
-  box-sizing: border-box;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-  transition: background-color 0.3s ease;
-  transition: filter 0.3s ease;
-  transform: translateY(0);
-  filter: brightness(0.95);
-  max-width: 1280px;
-  margin: 0 auto;
 }
 
 /* Logo Animado y con Brillo */
