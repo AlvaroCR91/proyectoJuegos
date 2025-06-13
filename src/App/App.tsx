@@ -24,7 +24,7 @@ const App: React.FC = () => {
         path="/"
         element={
           <div className="titulo">
-            <h2>Bienvenido a tu dispositivo de partidas</h2>
+            <h2>Bienvenido a tu gestor de partidas guardadas</h2>
           <div className="contenedor-cards">
             {indices.map((indice) => (
               <Link key={indice.id} to={indice.href} style={{ textDecoration: "none" }}>
