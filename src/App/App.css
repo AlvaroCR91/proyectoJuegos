@@ -6,6 +6,18 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   background-image: url("../img/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #1a1a2f;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  transition: background-color 0.3s ease;
+  transition: filter 0.3s ease;
+  transform: translateY(0);
+  filter: brightness(0.95);
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -106,17 +118,14 @@
   padding: 1rem;
   border-radius: 10px;
   background-color: #1f1f2f;
-  background-image: url("../img/fondo.jpg");
 }
 
 /* 📢 Título Moderno */
 .titulo {
   font-size: 2.5rem;
-  color: #4f46e5;
+  color: #ffffff;
   margin-bottom: 1rem;
-  text-align: center;
-  background-image: url("../img/fondo.jpg");
-}
+  text-align: center;}
 
 /* 🧠 Documentación */
 .read-the-docs {
