@@ -5,6 +5,7 @@
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
+  background-image: href="../img/fondo.jpg";
 }
 
 /* Logo Animado y con Brillo */
@@ -103,6 +104,7 @@
   padding: 1rem;
   border-radius: 10px;
   background-color: #1f1f2f;
+  background-image: href="../img/fondo.jpg";
 }
 
 /* 📢 Título Moderno */
